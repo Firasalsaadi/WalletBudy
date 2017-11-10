@@ -1,0 +1,159 @@
+ 
+
+/* line 2, ../scss/2-framework/_buttons.scss */
+.btn, #submit {
+  padding: 7px 9px;
+  display: inline-block;
+  outline: 0;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.3), inset 0px 2px 0px rgba(255, 255, 255, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  border: none;
+  background: #3C8FC7;
+  -moz-transition: all linear 0.15s;
+  -webkit-transition: all linear 0.15s;
+  -o-transition: all linear 0.15s;
+  -ms-transition: all linear 0.15s;
+  text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+/* line 19, ../scss/2-framework/_buttons.scss */
+.btn:hover, .btn:active, #submit:hover, #submit:active {
+  cursor: pointer;
+  background: #63a5d2;
+  text-decoration: none;
+}
+/* line 26, ../scss/2-framework/_buttons.scss */
+.btn:active, #submit:active {
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.3), inset 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+/* line 31, ../scss/2-framework/_buttons.scss */
+.btn [class^="fa-"], #submit [class^="fa-"] {
+  line-height: 0px;
+}
+
+/* line 38, ../scss/2-framework/_buttons.scss */
+button.btn {
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+}
+
+/* line 44, ../scss/2-framework/_buttons.scss */
+.btn.small {
+  padding: 8px 12px 10px;
+  font-size: 0.750em;
+}
+
+/* line 51, ../scss/2-framework/_buttons.scss */
+.btn.large {
+  padding: 17px 24px;
+  font-size: 1.500em;
+}
+
+/* line 58, ../scss/2-framework/_buttons.scss */
+.btn-group {
+  display: inline-block;
+}
+/* line 61, ../scss/2-framework/_buttons.scss */
+.btn-group .btn {
+  margin-right: -1px;
+  float: left;
+  border-radius: 0px;
+}
+/* line 66, ../scss/2-framework/_buttons.scss */
+.btn-group .btn:first-child {
+  border-radius: 3px 0px 0px 3px;
+}
+/* line 70, ../scss/2-framework/_buttons.scss */
+.btn-group .btn:last-child {
+  border-radius: 0px 3px 3px 0px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:5px;
+}
+
+.signup-btn {
+  background: #79bc64;
+  background-image: -webkit-linear-gradient(top, #79bc64, #578843);
+  background-image: -moz-linear-gradient(top, #79bc64, #578843);
+  background-image: -ms-linear-gradient(top, #79bc64, #578843);
+  background-image: -o-linear-gradient(top, #79bc64, #578843);
+  background-image: linear-gradient(to bottom, #79bc64, #578843);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  text-shadow: 0px 1px 0px #898a88;
+  -webkit-box-shadow: 0px 0px 0px #a4e388;
+  -moz-box-shadow: 0px 0px 0px #a4e388;
+  box-shadow: 0px 0px 0px #a4e388;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #3b6e22  1px;
+  text-decoration: none;
+}
+
+.signup-btn:hover {
+  background: #79bc64;
+  background-image: -webkit-linear-gradient(top, #79bc64, #5e7056);
+  background-image: -moz-linear-gradient(top, #79bc64, #5e7056);
+  background-image: -ms-linear-gradient(top, #79bc64, #5e7056);
+  background-image: -o-linear-gradient(top, #79bc64, #5e7056);
+  background-image: linear-gradient(to bottom, #79bc64, #5e7056);
+  text-decoration: none;
+}
+.navbar-default .navbar-brand{
+		color:#fff;
+		font-size:30px;
+		font-weight:bold;
+	}
+.form .form-control { margin-bottom: 10px; }
+@media (min-width:768px) {
+	#home{
+		margin-top:50px;
+	}
+	#home .slogan{
+		color: #0e385f;
+		line-height: 29px;
+		font-weight:bold;
+	}
+}
+
+
+
+ 
+
+
+
+
+
